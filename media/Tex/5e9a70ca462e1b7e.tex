@@ -1,0 +1,13 @@
+\documentclass[preview]{standalone}
+
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\begin{align*}
+L(p, w, \mu, \nu, \lambda, \alpha) = w_B \log_2 \left[1 + \frac{P_1 \left|\hat{h_1}\right|^2}{P \sigma_{\epsilon}^2 + w_B \sigma^2}\right] + w_B \log_2 \left[1 + \frac{P_2 \left|\hat{h_2}\right|^2}{\left|\hat{h_2}\right|^2 p_1 + P \sigma_{\epsilon}^2 + w_B \sigma^2}\right] \\ + w_B \log_2 \left[1 + \frac{P_3 \left|\hat{h_3}\right|^2}{\left|\hat{h_3}\right|^2 (p_1 + p_2) + P \sigma_{\epsilon}^2 + w_B \sigma^2}\right] \\ + + \mu_1 R_1 + \mu_2 R_2 + \mu_3 R_3 - \mu_1 r_1 - \mu_2 r_2 - \mu_3 r_3 + \nu W_{tot} - \nu w_B + \lambda P - \lambda p_1 - \lambda p_2 - \lambda p_3 + \alpha_1 p_1 + \alpha_2 p_2 + \alpha_3 p_3
+\end{align*}
+
+\end{document}
