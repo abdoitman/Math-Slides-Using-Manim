@@ -1,5 +1,5 @@
 # Math Slides Using Manim
-Used [Manim](https://github.com/manimCommunity/manim) to create animated sequences of some mathematical equations to demonistrate them in a better way.
+Used [Manim](https://github.com/manimCommunity/manim) to create animated sequences of some mathematical equations to demonstrate them in a better way.
 
 
 **NOTE**: To construct any scene in manim, define a class with the animation name, then define the animation sequence in the `construct(self)` method. <br>
